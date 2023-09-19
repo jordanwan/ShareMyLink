@@ -21,4 +21,4 @@ I'm open-sourcing the code to encourage others to host this service on their own
 
 ## Screenshot
 
-![The ShareMyLink Interactive Tool]([http://url/to/img.png](https://raw.githubusercontent.com/jordanwan/ShareMyLink/main/ShareMyLink.png)
+![ShareMyLink Interactive Tool](https://raw.githubusercontent.com/jordanwan/ShareMyLink/main/ShareMyLink.png)
