@@ -15,9 +15,9 @@ I'm open-sourcing the code to encourage others to host this service on their own
 ## Installation and Configuration
 
 - Modify the RewriteRule in line for of [htaccess](https://github.com/jordanwan/ShareMyLink/blob/main/htaccess) to use your own domain.
+- Rename htaccess to "**.htaccess**" (as a hidden file) and upload it to the root of your domain. The .htaccess file will not work correctily without the dot prefixed.
 - Configure settings in site-config.php
 - Place index.php, site-config.php and og-image.jpg on the root of your domain.
-- Rename htaccess to "**.htaccess**" (as a hidden file) and upload it to the root of your domain. The .htaccess file will not work correctily without the dot prefixed.
 
 ## Demo
 
