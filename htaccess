@@ -1,6 +1,6 @@
 # The following conditions are designed to rewrite URLs that do not start with "index.php" or "og-image.jpg" and do not already contain a query parameter starting with "sourceURL=". It captures the portion of the URL after the domain and forward slash and appends it as a "sourceURL" query parameter in a temporary (302) to the main domain.
 
-# Example: https://sharemylink.ca/www.domain.com/page would be redirected to https://sharemylink.ca/?sourceURL=www.domain.com/page
+# Example: https://yourdomain.com/www.content.com/page would be redirected to https://yourdomain.com/?sourceURL=www.content.com/page
 
 RewriteEngine On
 
@@ -11,5 +11,5 @@ RewriteCond %{REQUEST_URI} !^/index\.php
 # Prevent automatic redirection when accessing the interactive sharing tool on the root.
 
 RewriteCond %{QUERY_STRING} !^sourceURL=
-RewriteRule ^([^/?].*)$ https://www.sharemylink.ca/?sourceURL=$1 [L,QSA,NE,R=302]
-# MODIFY THE ABOVE CONDITION WITH YOUR OWN DOMAIN. Tests if the URL already includes the sourceURL attribute, and if it does not then it modifies the URL to include the destination URL (the part after the /) as a value of sourceURL so that it can be read by the PHP.
+RewriteRule ^([^/?].*)$ https://www.YOURDOMAIN.com/?sourceURL=$1 [L,QSA,NE,R=302]
+# REPLACE *YOURDOMAIN* IN THE ABOVE CONDITION WITH YOUR OWN DOMAIN. Tests if the URL already includes the sourceURL attribute, and if it does not then it modifies the URL to include the destination URL (the part after the /) as a value of sourceURL so that it can be read by the PHP.
