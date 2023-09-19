@@ -1,10 +1,13 @@
 # ShareMyLink
 ShareMyLink.ca (formerly ShareNews.ca) was launched in August 2023 in response to Canada's Bill C-18, the Online News Act. This bill prompted Facebook to voluntarily and prematurely block news content shared by Canadians and news publishers even before the law would come into effect, currently slated for late 2024.
-Regardless of one's stance on Bill C-18, Facebook's move to restrict news sharing has drastically impacted smaller, independent news outlets and hindered the dissemination of urgent and important news, missing person reports and more.
+
+Regardless of one's stance on Bill C-18, Facebook's decision to restrict news sharing has had a significant impact on smaller, independent news outlets and has hindered the dissemination of critical information, including urgent news and missing person reports.
+
+**I'm proud of the modest impact it had, enabling 54K Canadians to share news over just a few short weeks.**
 
 On September 19, 2023, Facebook added ShareMyLink.ca and previously ShareNews.ca to their 'news content' blacklist, preventing further use of the tool on its existing domain.
 
-I'm open-sourcing the code to encourage others to host this service on their own domains. Smaller independent news publishers may also consider hosting this tool on an alternate domain and modifying the code to restrict it to their own content URLs in order to limit the utility of their custom link sharer. This may allow them to continue using the tool until the issue between the Canadian Government and social media platforms may be resolved.
+In an effort to support the continued sharing of news links, I am open-sourcing the code, encouraging others to host this service on their own domains. Smaller independent news publishers may also choose to host this tool on an alternate domain, customizing the code to restrict it to their own content URLs, thereby limiting its broader utility. This approach may allow them to continue using the tool until the issues between the Canadian Government and social media platforms are resolved.
 
 **🇨🇦 Please share it widely.**
 
