@@ -1,6 +1,6 @@
 # The following conditions are designed to rewrite URLs that do not start with "index.php" or "og-image.jpg" and do not already contain a query parameter starting with "sourceURL=". It captures the portion of the URL after the domain and forward slash and appends it as a "sourceURL" query parameter in a temporary (302) to the main domain.
 
-# Example: https://sharenews.ca/www.domain.com/page would be redirected to https://sharenews.ca/?sourceURL=www.domain.com/page
+# Example: https://sharemylink.ca/www.domain.com/page would be redirected to https://sharemylink.ca/?sourceURL=www.domain.com/page
 
 RewriteEngine On
 
