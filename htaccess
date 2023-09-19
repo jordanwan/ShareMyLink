@@ -12,4 +12,4 @@ RewriteCond %{REQUEST_URI} !^/index\.php
 
 RewriteCond %{QUERY_STRING} !^sourceURL=
 RewriteRule ^([^/?].*)$ https://www.sharemylink.ca/?sourceURL=$1 [L,QSA,NE,R=302]
-# Tests if the URL already includes the sourceURL attribute, and if it does not then it modifies the URL to include the destination URL (the part after the /) as a value of sourceURL so that it can be read by the PHP.
+# MODIFY THE ABOVE CONDITION WITH YOUR OWN DOMAIN. Tests if the URL already includes the sourceURL attribute, and if it does not then it modifies the URL to include the destination URL (the part after the /) as a value of sourceURL so that it can be read by the PHP.
