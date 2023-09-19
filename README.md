@@ -19,6 +19,6 @@ I'm open-sourcing the code to encourage others to host this service on their own
 - Configure settings in site-config.php
 - Place index.php, site-config.php and og-image.jpg on the root of your domain.
 
-## Demo
+## Screenshot
 
-While [ShareMyLink.ca](https://www.sharemylink.ca) may no longer be a viable option for Canadians to share content on Facebook, as it has been added to Facebook's  'news content' blacklist, it will continue to function for demonstration purposes.
+![The ShareMyLink Interactive Tool]([http://url/to/img.png](https://raw.githubusercontent.com/jordanwan/ShareMyLink/main/ShareMyLink.png)https://raw.githubusercontent.com/jordanwan/ShareMyLink/main/ShareMyLink.png)
