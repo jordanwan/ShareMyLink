@@ -13,7 +13,7 @@ In an effort to support the continued sharing of news links, I am open-sourcing 
 
 ## Requirements
 
-- A PHP capable web server.
+- A PHP capable web server and dedicated domain for this tool.
 
 ## Installation and Configuration
 
@@ -21,6 +21,12 @@ In an effort to support the continued sharing of news links, I am open-sourcing 
 - Rename htaccess to "**.htaccess**" (as a hidden file) and upload it to the root of your domain. The .htaccess file will not work correctily without the dot prefixed.
 - Configure settings in site-config.php
 - Place index.php, site-config.php and og-image.jpg on the root of your domain.
+
+## Optional: Include Your Server on the Public Access Servers List
+
+If your ShareMyLink deployment is intended for general public use, we encourage you to voluntarily [add your server to this list](https://forms.gle/pZY46v4MhBhgyi7M6) of Public Access Servers. This will make it easier for users to discover and access your deployment.
+
+[Submit your server](https://forms.gle/pZY46v4MhBhgyi7M6) or [view the list](https://docs.google.com/spreadsheets/d/18_gCY_ZxaCFSqFaXNKglVvYNDk90WC3gQGUpb3hjFsk/edit?usp=sharing) here.
 
 ## Screenshot
 
