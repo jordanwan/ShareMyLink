@@ -26,12 +26,12 @@ In an effort to support the continued sharing of news links, I am open-sourcing 
 
 Although links cannot be shared from [ShareNews.ca](https://www.sharenews.ca) due to the domain being added to Facebook's news blacklist, a deployment is available here for demonstration purposes.
 
-## Screenshot
-
-![ShareMyLink Interactive Tool](https://raw.githubusercontent.com/jordanwan/ShareMyLink/main/ShareMyLink.png)
-
 ## Optional: Include Your Server on the Public Access Servers List
 
 If your ShareMyLink deployment is intended for general public use, you are encouraged to voluntarily [add your server to the list](https://forms.gle/pZY46v4MhBhgyi7M6) of Public Access Servers. This will make it easier for users to discover and access your deployment.
 
 **Please [submit your server](https://forms.gle/pZY46v4MhBhgyi7M6) or [view the list](https://docs.google.com/spreadsheets/d/18_gCY_ZxaCFSqFaXNKglVvYNDk90WC3gQGUpb3hjFsk/edit?usp=sharing) here.**
+
+## Screenshot
+
+![ShareMyLink Interactive Tool](https://raw.githubusercontent.com/jordanwan/ShareMyLink/main/ShareMyLink.png)
