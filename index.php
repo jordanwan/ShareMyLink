@@ -97,6 +97,9 @@
 			        		echo "<title>🔗 " . strtoupper($sourceDomain) . " | " . $metaTag->getAttribute('content') . "</title>";
 
 			        		echo "<meta content=\"🔗 " . strtoupper($sourceDomain) . " | " . $metaTag->getAttribute('content') . "\" property=\"og:title\">";
+
+			        		echo "<meta content=\"" . $metaTag->getAttribute('content') . "\" property=\"og:original-title\">";
+
 			        		
 			        	} else {
 
