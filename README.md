@@ -28,7 +28,7 @@ Although links cannot be shared from [ShareNews.ca](https://www.sharenews.ca) du
 
 ## Optional: Include Your Server on the Public Access Servers List
 
-If your ShareMyLink deployment is intended for general public use, you are encouraged to voluntarily [add your server to the list](https://forms.gle/pZY46v4MhBhgyi7M6) of Public Access Servers. This will make it easier for users to discover and access your deployment.
+If your ShareMyLink deployment is intended for general public use, you can voluntarily [add your server to the list](https://forms.gle/pZY46v4MhBhgyi7M6) of Public Access Servers. This will facilitate users in discovering and accessing your deployment. However, caveat emptor, as adding your domain to this list may also potentially increase its visibility to various platform operators.
 
 **Please [submit your server](https://forms.gle/pZY46v4MhBhgyi7M6) or [view the list](https://docs.google.com/spreadsheets/d/18_gCY_ZxaCFSqFaXNKglVvYNDk90WC3gQGUpb3hjFsk/edit?usp=sharing) here.**
 
